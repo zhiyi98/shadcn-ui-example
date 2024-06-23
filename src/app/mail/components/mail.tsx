@@ -16,26 +16,26 @@ import {
 } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Input } from "@/registry/new-york/ui/input"
+import { Input } from "@/components/ui/input"
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/registry/new-york/ui/resizable"
-import { Separator } from "@/registry/new-york/ui/separator"
+} from "@/components/ui/resizable"
+import { Separator } from "@/components/ui/separator"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/new-york/ui/tabs"
-import { TooltipProvider } from "@/registry/new-york/ui/tooltip"
-import { AccountSwitcher } from "@/app/(app)/examples/mail/components/account-switcher"
-import { MailDisplay } from "@/app/(app)/examples/mail/components/mail-display"
-import { MailList } from "@/app/(app)/examples/mail/components/mail-list"
-import { Nav } from "@/app/(app)/examples/mail/components/nav"
-import { type Mail } from "@/app/(app)/examples/mail/data"
-import { useMail } from "@/app/(app)/examples/mail/use-mail"
+} from "@/components/ui/tabs"
+import { TooltipProvider } from "@/components/ui/tooltip"
+import { AccountSwitcher } from "@/app/mail/components/account-switcher"
+import { MailDisplay } from "@/app/mail/components/mail-display"
+import { MailList } from "@/app/mail/components/mail-list"
+import { Nav } from "@/app/mail/components/nav"
+import { type Mail } from "@/app/mail/data"
+import { useMail } from "@/app/mail/use-mail"
 
 interface MailProps {
   accounts: {

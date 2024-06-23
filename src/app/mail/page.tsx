@@ -1,8 +1,8 @@
 import { cookies } from "next/headers"
 import Image from "next/image"
 
-import { Mail } from "@/app/(app)/examples/mail/components/mail"
-import { accounts, mails } from "@/app/(app)/examples/mail/data"
+import { Mail } from "@/app/mail/components/mail"
+import { accounts, mails } from "@/app/mail/data"
 
 export default function MailPage() {
   // 布局
