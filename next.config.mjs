@@ -1,6 +1,3 @@
-import { createContentlayerPlugin } from "next-contentlayer"
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
@@ -60,8 +57,4 @@ const nextConfig = {
 }
 
 
-const withContentLayer = createContentlayerPlugin({
-    // Additional ContentLayer config options
-})
-
-export default withContentLayer(nextConfig)
+export default nextConfig
